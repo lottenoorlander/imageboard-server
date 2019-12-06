@@ -45,9 +45,6 @@ router.post(
             message: "Something went wrong"
           });
         });
-      res.send({
-        jwt: toJWT({ userId: 1 })
-      });
     }
   }
   // .catch(error => next(error))
